@@ -1,0 +1,33 @@
+{
+  "name": "sudoku-resolver",
+  "version": "1.0.0",
+  "description": "sudoku resolver",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --source-map inline",
+    "watch": "babel src --out-dir lib --watch --source-map inline",
+    "start": "babel-node index.js --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youdays/sudoku-resolver.git"
+  },
+  "keywords": [
+    "sudoku"
+  ],
+  "author": "youdays0518",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youdays/sudoku-resolver/issues"
+  },
+  "homepage": "https://github.com/youdays/sudoku-resolver#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
