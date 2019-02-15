@@ -2,6 +2,8 @@
 
 数独を解く
 
+abababab
+
 ## USAGE
 
 サンプル実行
